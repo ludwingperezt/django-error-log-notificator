@@ -99,3 +99,24 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+# Ignore Mac DS_Store files
+.DS_Store
+
+# Vagrant stuff
+.vagrant/
+acceptance_config.yml
+boxes/*
+/.vagrant
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
+Vagrantfile
+puphpet/
+
+#archivos y módulos node para frontend:
+node_modules/
+
+#carpeta media
+media/
